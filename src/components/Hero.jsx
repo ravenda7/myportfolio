@@ -19,7 +19,7 @@ function Hero() {
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className="md:flex-row-reverse md:items-center md:justify-evenly flex flex-col justify-center gap-[20px] text-center h-[100dvh] min-h-[500px]">
+    <section className="md:flex-row-reverse md:items-center md:justify-evenly flex flex-col justify-center gap-[20px] text-center h-[100dvh] min-h-[500px]">
       <div className="relative">
         <img
           src={heroImg}
